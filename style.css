@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+/* 全体のbox */
+#site-box{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #999;	
+}
+
+/* 中のbox */
+#a-box{
+	float: left;
+	margin-left: 50px;
+	width: 600px;
+}
+
+/* 中の中のbox */
+#b-box{
+	float: left;
+	width: 300px;
+}
