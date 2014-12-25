@@ -20,3 +20,9 @@
 	float: left;
 	width: 300px;
 }
+
+/* ページ上部に戻るリンクの位置調整 */
+#up{
+	float: right;
+	margin-right: 70px;
+}
