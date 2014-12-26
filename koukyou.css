@@ -27,3 +27,16 @@ div#tab3 {
    border: 2px solid #EEC063; background-color: white;
 }
 div.tab p { margin: 0.5em; }
+
+div#aaa{
+border: 1px solid black;
+width: 600px;
+height: auto;
+float: right;
+}
+
+div#title1{
+border: 1px solid white;
+width: auto;
+height: auto;
+}
