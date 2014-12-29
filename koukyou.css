@@ -1,9 +1,9 @@
-@CHARSET "Shift_JIS";
+@CHARSET "UTF-8";
 div.tabbox {
    margin: 0px; padding: 0px; width: auto;
 }
 
-/* タブ部分 */
+/* 繧ｿ繝夜Κ蛻� */
 p.tabs { margin: 0px; padding: 0px; }
 p.tabs a {
    display: block; width: 400px; float: left;
@@ -15,7 +15,7 @@ p.tabs a.tab2 { border: 2px solid #ff3399; color: #ff3399;}
 p.tabs a.tab3 { border: 2px solid #EEC063; color: #EEC063;}
 p.tabs a:hover { color: auto; }
 
-/* タブ中身のボックス */
+/* 繧ｿ繝紋ｸｭ霄ｫ縺ｮ繝懊ャ繧ｯ繧ｹ */
 div.tab { height: auto; overflow: auto; clear: left; }
 div#tab1 {
    border: 2px solid #B0D25F; background-color: white;

@@ -1,9 +1,9 @@
-@CHARSET "Shift_JIS";
+@CHARSET "UTF-8";
 div.tabbox {
    margin: 0px; padding: 0px; width: auto;
 }
 
-/* タブ部分 */
+/* 繧ｿ繝夜Κ蛻� */
 p.tabs { margin: 0px; padding: 0px; }
 p.tabs a {
    display: block; width: 300px; float: left;
@@ -16,7 +16,7 @@ p.tabs a.tab3 { border: 2px solid #00cc66; color: #00cc66;}
 p.tabs a.tab4 { border: 2px solid #3399ff; color: #3399ff;}
 p.tabs a:hover { color: auto; }
 
-/* タブ中身のボックス */
+/* 繧ｿ繝紋ｸｭ霄ｫ縺ｮ繝懊ャ繧ｯ繧ｹ */
 div.tab { height: auto; overflow: auto; clear: left; }
 div#tab1 {
    border: 2px solid #cc0033; background-color: white;
@@ -31,3 +31,24 @@ div#tab4 {
    border: 2px solid #3399ff; background-color: white;
 }
 div.tab p { margin: 0.5em; }
+
+#site-box{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #999;
+}
+
+
+/* 荳ｭ縺ｮbox */
+#a-box{
+	float: left;
+	margin-left: 50px;
+	width: 500px;
+}
+
+/* 荳ｭ縺ｮ荳ｭ縺ｮbox */
+#b-box{
+	float: left;
+	width: 250px;
+}
