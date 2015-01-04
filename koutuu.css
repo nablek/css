@@ -1,9 +1,9 @@
-@CHARSET "Shift_JIS";
+@CHARSET "UTF-8";
 div.tabbox {
    margin: 0px; padding: 0px; width: auto;
 }
 
-/* ƒ^ƒu•”•ª */
+/* ã‚¿ãƒ–éƒ¨åˆ† */
 p.tabs { margin: 0px; padding: 0px; }
 p.tabs a {
    display: block; width: 300px; float: left;
@@ -14,7 +14,7 @@ p.tabs a.tab1 { border: 2px solid #32CD32; color: #32CD32; }
 p.tabs a.tab2 { border: 2px solid #FDCE00; color: #FDCE00;}
 p.tabs a:hover { color: auto; }
 
-/* ƒ^ƒu’†g‚Ìƒ{ƒbƒNƒX */
+/* ã‚¿ãƒ–ä¸­èº«ã®ãƒœãƒƒã‚¯ã‚¹ */
 div.tab { height: auto; overflow: auto; clear: left; }
 div#tab1 {
    border: 2px solid #32CD32; background-color: white;
@@ -24,3 +24,10 @@ div#tab2 {
 }
 
 div.tab p { margin: 0.5em; }
+
+/* æ±½è»Š */
+div.train {
+	margin: 30px 30px;
+	padding: 10px;
+	border: medium solid #777777;
+}

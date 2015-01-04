@@ -35,3 +35,8 @@ tab1#tab.box1 {
 	padding: 0px;
 	position: absolute;
 }
+
+/* プルダウンの配置 */
+form.position {
+	margin: 0px 20px;
+}
