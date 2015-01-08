@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+/* ヘッダ */
+div.header{
+	background-color: #fed;
+	height: 60px;
+	padding: 10px;
+}
+/* フッタ */
+div.footer {
+	background-color: #fed;
+	height: 60px;
+	padding: 10px;
+}
+
+/* メイン */
+#main {
+	background-color: #eee;
+	padding: 10px;
+}
