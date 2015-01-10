@@ -37,6 +37,7 @@ text-decoration: none;
 #nav {
 float: left;
 width: 200px; /* サイドバーの幅 */
+background: url(sidebar_200.gif) repeat-y left; /* サイドバーの背景画像 */
 }
 
 .pop{
