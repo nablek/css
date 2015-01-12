@@ -1,0 +1,82 @@
+@CHARSET "Shift_JIS";
+
+/* --- コンテナ --- */
+#container {
+width: 96%; /* ページの幅 */
+margin: 0 auto; /* センタリング */
+background: url(sideber_200) repeat-y left; /* サイドバーの背景画像 */
+background-color: #ffffff; /* メインカラムの背景色 */
+border-left: 1px #c0c0c0 solid; /* 左の境界線 */
+border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+}
+
+/* --- ナビゲーション --- */
+#nav {
+float: left;
+width: 200px; /* サイドバーの幅 */
+}
+
+.pop{
+font-family:sans-serif;
+}
+
+/* --- メインカラム --- */
+#content {
+margin-left: 200px; /* メインカラムの左マージン（サイドバーの幅以上） */
+}
+
+
+/* タブ部分 */
+p.tabs { margin: 0px; padding: 0px; }
+p.tabs a {
+   display: block; width: 100px; float: left;
+   margin: 0px 1px 0px 0px; padding: 3px;
+   text-align: center;
+}
+p.tabs a.tab1 { border: 2px solid black; color: black; }
+p.tabs a.tab2 { border: 2px solid gray; color: gray;}
+p.tabs a.tab3 { border: 2px solid black; color: black;}
+p.tabs a:hover { color: auto; }
+
+/* タブ中身のボックス */
+div.tab { height: auto; overflow: auto; clear: left; }
+div#tab1 {
+   border: 2px solid black; background-color: white;
+}
+div#tab2 {
+   border: 2px solid gray; background-color: white;
+}
+div#tab3 {
+   border: 2px solid black; background-color: white;
+}
+div.tab p { margin: 0.5em; }
+
+/*ポッピアップの部分*/
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 101;
+}
+.popup_inner {
+    padding: 20px;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 100;
+}
+
+/* individual setting */
+#popup1 {
+    width: 600px;
+}
