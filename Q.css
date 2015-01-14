@@ -1,0 +1,22 @@
+@CHARSET "Shift_JIS";
+
+/* --- コンテナ --- */
+#container {
+width: 96%; /* ページの幅 */
+margin: 0 auto; /* センタリング */
+
+background-color: #ffffff; /* メインカラムの背景色 */
+border-left: 1px #c0c0c0 solid; /* 左の境界線 */
+border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+}
+
+/* --- ナビゲーション --- */
+#nav {
+float: left;
+width: 200px; /* サイドバーの幅 */
+}
+
+/* --- メインカラム --- */
+#content {
+margin-left: 200px; /* メインカラムの左マージン（サイドバーの幅以上） */
+}
