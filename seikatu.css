@@ -32,13 +32,11 @@ div#tab4 {
 }
 div.tab p { margin: 0.5em; }
 
+/* 全体のbox */
 #site-box{
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 1200px;
 	border: 1px solid #999;
 }
-
 
 /* 中のbox */
 #a-box{
@@ -50,5 +48,15 @@ div.tab p { margin: 0.5em; }
 /* 中の中のbox */
 #b-box{
 	float: left;
-	width: 250px;
+	width: 200px;
+}
+
+#c-box{
+	float: left;
+	width: 300px;
+}
+
+#d-box{
+	float: left;
+	width: 400px;
 }
