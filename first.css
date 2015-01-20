@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+#header{
+padding:30px;
+background-color:balck;
+background-image:url(/picture/head.gif);　/* 画像の設定 */
+text-align:center;
+}
