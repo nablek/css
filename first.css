@@ -1,8 +1,37 @@
 @CHARSET "UTF-8";
 
+/* ヘッダー */
 #header{
-padding:30px;
-background-color:balck;
-background-image:url(/picture/head.gif);　/* 画像の設定 */
-text-align:center;
+	float:center;
+	padding:30px;
+	background-color:balck;
+	background-image:url(/picture/head.gif);　/* 画像の設定 */
+}
+
+/* メインカラム　*/
+#site{
+	position:absolute;
+	top:200px;
+	left:100px;
+	border:1px white solid;
+	width:500px;
+	height:100px;
+}
+
+.sav{
+	position:absolute;
+	top:0px;
+	left:800px;
+	border:1px white solid;
+	width:200px;
+	height:100px;
+}
+
+.footer{
+	position:absolute;
+	top:1300px;
+	left:550px;
+	border:1px white solid;
+	width:200px;
+	height:100px;
 }
