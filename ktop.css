@@ -30,7 +30,7 @@ border-right: 1px #c0c0c0 solid; /* 右の境界線 */
 #header{
 padding:10px;
 background-color:balck;
-background-image:url(/picture/khead.gif);　/* 画像の設定 */
+background-image:url(khead.gif);　/* 画像の設定 */
 }
 
 a{
@@ -110,7 +110,6 @@ margin-left: 200px; /* メインカラムの左マージン（サイドバーの
 	position:absolute;
 	top:200px;
 	left:560px;
-	top:0%;
 	border:3px black solid;
 	width:200px;
 	height:60px;
@@ -118,9 +117,8 @@ margin-left: 200px; /* メインカラムの左マージン（サイドバーの
 
 .koutuu{
 	position:absolute;
-	top:500px;
+	top:330px;
 	left:560px;
-	top:0%;
 	border:3px black solid;
 	width:200px;
 	height:60px;
@@ -128,9 +126,8 @@ margin-left: 200px; /* メインカラムの左マージン（サイドバーの
 
 .event{
 	position:absolute;
-	top:700px;
+	top:460px;
 	left:560px;
-	top:0%;
 	border:3px black solid;
 	width:200px;
 	height:60px;
@@ -138,9 +135,8 @@ margin-left: 200px; /* メインカラムの左マージン（サイドバーの
 
 .toi{
 	position:absolute;
-	top:700px;
+	top:200px;
 	left:900px;
-	top:0%;
 	border:3px black solid;
 	width:200px;
 	height:60px;
@@ -148,9 +144,8 @@ margin-left: 200px; /* メインカラムの左マージン（サイドバーの
 
 .q{
 	position:absolute;
-	top:700px;
+	top:330px;
 	left:900px;
-	top:0%;
 	border:3px black solid;
 	width:200px;
 	height:60px;
