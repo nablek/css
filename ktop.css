@@ -30,7 +30,7 @@ border-right: 1px #c0c0c0 solid; /* 右の境界線 */
 #header{
 padding:10px;
 background-color:balck;
-background-image:url(khead.gif);　/* 画像の設定 */
+background-image:url(/picture/khead.gif);　/* 画像の設定 */
 }
 
 a{
