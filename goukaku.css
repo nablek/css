@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+/* ヘッダー */
+#header{
+	float:center;
+	padding:30px;
+	background-color:balck;
+	background-image:url(head.gif);　/* 画像の設定 */
+}
+
+/* メインカラム　*/
+#left{
+	position:absolute;
+	top:200px;
+	left:50px;
+	border:1px white solid;
+	width:300px;
+	height:100px;
+}
+
+.center{
+	position:absolute;
+	top:200px;
+	left:450px;
+	border:1px white solid;
+	width:300px;
+	height:100px;
+}
+
+.right{
+	position:absolute;
+	top:200px;
+	left:850px;
+	border:1px white solid;
+	width:300px;
+	height:100px;
+}
