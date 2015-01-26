@@ -6,7 +6,7 @@ div.tabbox {
 /* タブ部分 */
 p.tabs { margin: 0px; padding: 0px; }
 p.tabs a {
-   display: block; width: 300px; float: left;
+   display: block; width: 200px; float: left;
    margin: 0px 1px 0px 0px; padding: 3px;
    text-align: center;
 }
@@ -43,6 +43,7 @@ div.tab p { margin: 0.5em; }
 	float: left;
 	margin-left: 50px;
 	width: 500px;
+	height: 300px
 }
 
 /* 中の中のbox */
