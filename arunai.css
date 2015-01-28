@@ -1,11 +1,11 @@
-@CHARSET "UTF-8";
+﻿@CHARSET "UTF-8";
 
 /* ヘッダー */
 #header{
 	float:center;
 	padding:30px;
 	background-color:balck;
-	background-image:url(head.gif);　/* 画像の設定 */
+	background-image:url(/picture/head.gif);　/* 画像の設定 */
 }
 
 /* メインカラム　*/

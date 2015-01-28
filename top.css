@@ -56,45 +56,44 @@ a:active{ color: #ff0000; }
 
 /*---メインカラム(タブリスト)---*/
 #header ul.nl {
-width: 100%; /* IE 6のために幅の指定が必要 */
-margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: center;
+	width: 100%; /* IE 6のために幅の指定が必要 */
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
 }
 /* メニュー項目 */
 #header ul.nl li {
-width: 140px; /* 項目の幅 */
-float: left;
-line-height: 100%;
+	width: 140px; /* 項目の幅 */
+	float: left;
+	line-height: 100%;
 }
 /* リンクエリア */
 #header ul.nl li a {
-display: block;
-position: relative; /* IE6用 */
-padding: 15px 2px; /* リンクエリアのパディング（上下、左右） */
-border: 1px #cccccc; /* リンクエリアの境界線（太さ、色） */
-border-style: solid solid solid none; /* リンクエリアの境界線スタイル（上右下左） */
-text-decoration: none; /* テキストの下線（なし） */
+	display: block;
+	position: relative; /* IE6用 */
+	padding: 15px 2px; /* リンクエリアのパディング（上下、左右） */
+	border: 1px #cccccc; /* リンクエリアの境界線（太さ、色） */
+	border-style: solid solid solid none; /* リンクエリアの境界線スタイル（上右下左） */
+	text-decoration: none; /* テキストの下線（なし） */
 }
 /* 最初のリンクエリア */
 #header ul.nl li.first a {
-border-left: 1px #cccccc solid; /* リンクエリアの左境界線 */
+	border-left: 1px #cccccc solid; /* リンクエリアの左境界線 */
 }
 /* ポイント時の設定 */
 #header ul.nl li a:hover {
-background-color: #f0ffff; /* ポイント時の背景色 */
-text-decoration: underline; /* テキストの下線（あり） */
+	background-color: #f0ffff; /* ポイント時の背景色 */
+	text-decoration: underline; /* テキストの下線（あり） */
 }
 
 #tabbox {
-width: 300px;
-float: center;
-
+	width: 300px;
+	float: center;
 }
 
 
 /*---文字書体---*/
 #p{
-font-family: ＭＳ Ｐゴシック","ＭＳ ゴシック",sans-serif;
+	font-family: ＭＳ Ｐゴシック","ＭＳ ゴシック",sans-serif;
 }

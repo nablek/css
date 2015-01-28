@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+﻿@CHARSET "UTF-8";
 /* --- 全体の背景・テキスト --- */
 body {
 margin: 0;
@@ -29,7 +29,7 @@ border-right: 1px #c0c0c0 solid; /* 右の境界線 */
 /* --- ヘッダ --- */
 #header{
 padding:10px;
-background-color:balck;
+background-color:black;
 background-image:url(khead.gif);　/* 画像の設定 */
 }
 
